@@ -1,3 +1,5 @@
 body{background-color: blueviolet;color: white;font-family: 'Times New Roman', Times, serif;}
-header{background-color: rgb(241, 9, 241);color: white;text-align: center; font-size: xx-large;}
-img{height: 120px; width: 160px;}
+header{background-color: rgba(0, 26, 255, 0.822);color: white;text-align: center; font-size: xx-large;}
+img{height: 120px; width: 160px;border: 1px solid white;}
+input {color: rgb(255, 3, 3);}
+div :hover{background-color: rgb(255, 255, 255);color: rgb(0, 255, 0);}
