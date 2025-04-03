@@ -1,3 +1,10 @@
-body{background-color: blueviolet;color: white;font-family: 'Times New Roman', Times, serif;}
+body{background-color: rgb(8, 8, 8);color: rgb(248, 247, 247);font-family: 'Times New Roman', Times, serif;}
 header{background-color: rgb(241, 9, 241);color: white;text-align: center; font-size: xx-large;}
 img{height: 120px; width: 160px;}
+div{border: solid rgba(211, 209, 209, 0.877) 2px;}
+#inf{background-color: rgb(0, 81, 255);}
+.tt{background-color: rgb(170, 199, 7);}
+.zz{background-color: rgba(253, 41, 13, 0.904);}
+#req{background-color: rgb(55, 177, 7);}
+#checkbox{accent-color:green ;}
+.pb :hover{color: red; background-color: darkblue;}
