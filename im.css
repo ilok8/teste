@@ -1,12 +1,11 @@
-body{background-color: rgb(8, 8, 8);color: rgb(248, 247, 247);font-family: 'Times New Roman', Times, serif;text-align: center;}
+ body{background-color: rgb(8, 8, 8);color: rgb(248, 247, 247);font-family: 'Times New Roman', Times, serif;text-align: center;}
 header{background-color: rgb(241, 9, 241);color: white;text-align: center; font-size: xx-large;border: solid white 2px;}
 img{height: 120px; width: 160px;border: solid rgb(8, 8, 8) 1px;}
+.photo{border: 2px solid white;}
 img:hover{height: 130px; width: 155px;rotate: 2deg ;border: solid rgb(17, 134, 252) 2px;}
-section{border: solid rgba(250, 245, 245, 0.877) 2px;}
-#inf{background-color: rgb(0, 81, 255);}
-.tt{background-color: rgb(170, 199, 7);}
-.zz{background-color: rgba(253, 41, 13, 0.904);}
-form{background-color: rgb(55, 177, 7);}
+#inf{background-color: rgb(0, 81, 255);border: solid 2px white;}
+.tt{background-color: rgb(7, 238, 169);border: solid white 1px;}
+form{background-color: rgb(55, 177, 7);border: solid 2px white;}
 input[type="text"]{ height: 24px; border-radius: 5px; border: solid rgb(8, 8, 8) 1px;}
 input[type="text"]:hover{width: 210px; height: 35px; border-radius: 5px; border: solid rgb(17, 134, 252) 2px;}
 input[type=email]{ height: 24px; border-radius: 5px; border: solid rgb(8, 8, 8) 1px;}
@@ -18,3 +17,23 @@ input[type=radio]{width: 20px; height: 20px;background-color: aqua;}
 input[type=radio]:hover{width: 25px; height: 25px;}
 input[type=checkbox]{width: 20px; height: 20px;}
 input[type=checkbox]:hover{width: 25px; height: 25px;}
+.container{display: grid;grid-template-columns: repeat(3, 1fr);}
+#radios{border: solid white 1px;}
+#termos{border: solid white 1px;}
+#dados{border: solid white 1px;}
+@media only screen and (max-width: 600px) {
+    .container{grid-template-columns: repeat(1, 1fr);}
+    img{height: 80px; width: 120px;}
+    img:hover{height: 90px; width: 115px;}
+    input[type="submit"]{width: 80px; height: 25px;}
+    input[type="submit"]:hover{width: 90px; height: 30px;}
+    input[type="text"]:hover{width: 180px; height: 30px;}
+    input[type=email]:hover{width: 180px; height: 30px;}}
+@media only screen and (max-width: 400px) {
+    header{background-color: black;border: none;}
+    img{height: 60px; width: 100px;border:0px;}
+    img:hover{height: 70px; width: 95px;}
+    input[type="submit"]{width: 70px; height: 20px;}
+    input[type="submit"]:hover{width: 80px; height: 25px;}
+    input[type="text"]:hover{width: 150px; height: 25px;}
+    input[type=email]:hover{width: 150px; height: 25px;}}
