@@ -1,10 +1,20 @@
-body{background-color: rgb(8, 8, 8);color: rgb(248, 247, 247);font-family: 'Times New Roman', Times, serif;}
-header{background-color: rgb(241, 9, 241);color: white;text-align: center; font-size: xx-large;}
-img{height: 120px; width: 160px;}
-div{border: solid rgba(211, 209, 209, 0.877) 2px;}
+body{background-color: rgb(8, 8, 8);color: rgb(248, 247, 247);font-family: 'Times New Roman', Times, serif;text-align: center;}
+header{background-color: rgb(241, 9, 241);color: white;text-align: center; font-size: xx-large;border: solid white 2px;}
+img{height: 120px; width: 160px;border: solid rgb(8, 8, 8) 1px;}
+img:hover{height: 130px; width: 155px;rotate: 2deg ;border: solid rgb(17, 134, 252) 2px;}
+section{border: solid rgba(250, 245, 245, 0.877) 2px;}
 #inf{background-color: rgb(0, 81, 255);}
 .tt{background-color: rgb(170, 199, 7);}
 .zz{background-color: rgba(253, 41, 13, 0.904);}
-#req{background-color: rgb(55, 177, 7);}
-#checkbox{accent-color:green ;}
-.pb :hover{color: red; background-color: darkblue;}
+form{background-color: rgb(55, 177, 7);}
+input[type="text"]{ height: 24px; border-radius: 5px; border: solid rgb(8, 8, 8) 1px;}
+input[type="text"]:hover{width: 210px; height: 35px; border-radius: 5px; border: solid rgb(17, 134, 252) 2px;}
+input[type=email]{ height: 24px; border-radius: 5px; border: solid rgb(8, 8, 8) 1px;}
+input[type=email]:hover{width: 210px; height: 35px; border-radius: 5px; border: solid rgb(17, 134, 252) 2px;}
+input[type="submit"]{width: 100px; height: 30px; border-radius: 5px; border: solid rgb(8, 8, 8) 1px;}
+input[type="submit"]:hover{width: 110px; height: 35px; border-radius: 5px; border: solid rgb(17, 134, 252) 2px;color: green;}
+input[type="submit"]:active{width: 110px; height: 35px; border-radius: 5px; border: solid rgb(17, 134, 252) 2px;color: #ff0000;}
+input[type=radio]{width: 20px; height: 20px;background-color: aqua;}
+input[type=radio]:hover{width: 25px; height: 25px;}
+input[type=checkbox]{width: 20px; height: 20px;}
+input[type=checkbox]:hover{width: 25px; height: 25px;}
